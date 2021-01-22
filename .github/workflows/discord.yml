@@ -1,0 +1,24 @@
+name: Discord Workflow Status Notifier
+  # You may pin to the exact commit or the version.
+  # uses: nobrayner/discord-webhook@1766a33bf571acdcc0678f00da4fb83aad01ebc7
+  uses: nobrayner/discord-webhook@v1
+  with:
+    # GitHub Token
+    github-token: 
+    # The WebHook URL to call. Should be stored in Secrets on the Repository
+    discord-webhook: 
+    # Overrides the current username of the webhook
+    username: # optional, default is GitHub Actions
+    # Overrides the current avatar of the webhook
+    avatar-url: # optional, default is https://avatars0.githubusercontent.com/u/44036562?s=200&v=4
+    # Overrides the default title. Include the status in the title by adding the {{STATUS}} placeholder.
+    title: # optional
+    # The message to display. Include the status in the description by adding the {{STATUS}} placeholder
+    description: # optional
+    # Whether or not to include the individual job status breakdown of the Workflow run
+    include-details: # optional, default is true
+    # Overrides the default success color. Any valid hex-color-code. E.g. #17cf48, 17cf48, 0x17cf48
+    color-success: # optional, default is 17cf48
+    # Overrides the default failure color. Any valid hex-color-code. E.g. #17cf48, 17cf48, 0x17cf48
+    color-failure: # optional, default is e72727
+    # Overrides the default cancelled color. Any valid hex-color-code. E.g. #17cf48, 17cf48, 0x17cf48
