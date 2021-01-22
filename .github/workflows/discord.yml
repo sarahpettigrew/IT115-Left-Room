@@ -6,7 +6,7 @@ name: Discord Workflow Status Notifier
     # GitHub Token
     github-token: 
     # The WebHook URL to call. Should be stored in Secrets on the Repository
-    discord-webhook: 
+    discord-webhook: https://discord.com/api/webhooks/802034458483490877/6Dty8oIu52qrrftjGHyDI1Uzaexwk0LxDaw1-aj58wEcEnzFWWdRD7dH_kkeYjkrnQac
     # Overrides the current username of the webhook
     username: # optional, default is GitHub Actions
     # Overrides the current avatar of the webhook
