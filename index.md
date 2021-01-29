@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## Welcome to Group 4 -- the Left Room (AKA the Wild West)
 
 You can use the [editor on GitHub](https://github.com/sarahpettigrew/IT115-Left-Room/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
