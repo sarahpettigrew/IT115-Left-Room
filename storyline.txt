@@ -2,4 +2,8 @@ With your hat and your horse, you head out the door. When you open the heavy woo
 You feel sand benath your feet and realize you have no shoes. You need to find some shoes, what will you do?
 
 Options: 
+1. Go back inside and look for shoes.
+2. Try and find shoes outside.
+3. Try to find a shoe store.
+4. Steal shoes from the nearest person.
 
